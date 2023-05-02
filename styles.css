@@ -70,3 +70,22 @@ input:focus {
   border: 0px;
   font-size: 18px;
 }
+
+.images-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.image-container {
+  width: 48%;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
+}
+
+.image-container img {
+  width: 100%;
+}
